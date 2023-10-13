@@ -3,13 +3,15 @@ Inserta el encabezado aquí y escribe tu código abajo
 """
 
 # Declaraciones
-CONSTANTE = valor
+CONSTANTE = "AÁ"
 
 # Entradas
-entrada = input()
+entrada = input("Escribe una palabra: ")
 
 # Proceso
+entrada = entrada.upper()
+if entrada[0] in CONSTANTE:
+    print(f"'{entrada}' comienza con '{CONSTANTE}'")
+else:
+    print(f"'{entrada}' no comienza con 'A'")
 
-
-# Salidas
-print(salida)
