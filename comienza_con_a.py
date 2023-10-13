@@ -16,5 +16,5 @@ if entrada[0] in CONSTANTE:
 elif entrada[0] in CONSTANTE_2:
     print(f"'{entrada}' comienza con '{CONSTANTE_2}'")
 else:
-     print(f"'{entrada}' no comienza con 'A'")
+    print(f"'{entrada}' no comienza con 'A'")
 
